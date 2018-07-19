@@ -1,0 +1,24 @@
+{
+  "name": "legalstart-app",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Legalstart APP",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack-cli": "latest",
+    "webpack": "latest",
+    "babel-loader": "latest",
+    "babel-core": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "prop-types": "latest",
+    "html-webpack-plugin": "latest",
+    "html-loader": "latest"
+  }
+}
